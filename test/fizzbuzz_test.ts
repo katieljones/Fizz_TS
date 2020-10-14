@@ -22,7 +22,7 @@ describe('fizzbuzz', () => {
   it('should return a number if it is neither divisible by 3,5,15', () => {
     let fizzbuzz = new FizzBuzz()
     expect(fizzbuzz.replaceNumber(4)).to.equal('4')
-    expect(fizzbuzz.replaceNumber(15)).to.equal('15')
+    expect(fizzbuzz.replaceNumber(26)).to.equal('26')
 
 
 
